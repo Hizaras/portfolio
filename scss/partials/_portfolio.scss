@@ -1,0 +1,121 @@
+// .portfolio{
+//     text-align: center;
+//     background: $light-gray;
+//     padding: 5em 0;
+// }
+
+// .portfolio-item{
+//     position: relative;
+//     overflow: hidden;
+  
+//     .img {
+//         display: block;
+//     }
+   
+//  .portfolio-item figcaption {
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     right: 0;
+//     left: 0;
+//     padding: 2em;
+//     background: rgba($accent, .5);
+//     color: $white;
+//     text-align: left;
+//     display: flex;
+//     flex-direction: column;
+//  }
+
+// }
+
+//  .portfolio-title{
+//     color: $white;
+//     font-size: 2.625rem;
+//     margin-bottom: auto;
+//     margin-top: -100px;
+//  }
+
+//  .portfolio-link{
+//     color: $accent;
+//     font-weight: $fw-b;
+//     font-size: 1.5rem;
+//     text-decoration: none;
+//     border-bottom: 3px solid $accent;
+//     align-self: flex-start;
+
+//     &::after{
+//         content: url(../../asset/arrow.png);
+//         display: inline-block;
+//         height: .8em;
+//         margin-left: .5em;
+//     }
+//  }
+
+//  @supports(display: grid){
+//     .portfolio-items  {
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+
+//     .portfolio-item.featured{
+//         grid-column: 1 / span 2;
+//         grid-row: 1 / span 2;
+//     }
+
+//     .featured{
+//         .portfolio-title {
+//             font-size: 5rem;
+
+//         }
+
+//         .portfolio-desc {
+//             display: block;
+//         }
+//     }
+
+
+//  }
+
+
+ .portfolio{
+
+    padding: 10px;
+    
+    h1{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: black;
+    }
+
+    img{
+      background: white;
+    }
+ }
+
+ .portfolio-title{
+    color: whitesmoke;
+    font-size: 200%;
+    text-align: center;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.892);
+    }
+
+  .portfolio-link{
+    color: rgb(199, 199, 24);
+    font-weight: $fw-b;
+    font-size: 1.5rem;
+    line-height: 4px;
+    text-decoration: none;
+    align-self: flex-start;
+
+ 
+
+    &::after{
+        content: url(../../asset/arrow.png);
+        display: inline-block;
+        height: .8em;
+        margin-left: .5em;
+    }
+
+ 
+ }

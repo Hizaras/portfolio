@@ -1,0 +1,93 @@
+// .about{
+//   width: 90%;
+//   margin: 0 auto;
+//   max-width: 1200px;
+// }
+
+// .about-me{
+//   margin-top: 5em;
+//   margin-bottom: 5em;
+// }
+
+
+
+// .about-img{
+//   @media(min-width: 40em){
+//     float: left;
+//     margin-right: 1em;
+//   }
+ 
+// }
+
+// .about-title{
+//   margin:2 .8em 0 .4em;
+
+// }
+
+// .about-subtitle{
+//   margin: .5em 0;
+// }
+
+
+// @supports (display: grid){
+//     .about-me{
+//         display: grid;
+//         grid-template-columns: [port-start] minmax(6em, 1fr) [name-start] minmax(6em, 1fr) [img-end]2fr [port-end];
+//       }
+
+//       .about-img{
+//         grid-column: port-start / img-end;
+//         grid-row: 1/2;
+
+//       }
+
+//       .about-title{
+//         grid-column: name / port;
+//         grid-row: 1/2;
+//         align-self: end;
+//       }
+
+//       .about-subtitle,
+//       .about-text{
+//         grid-column: port / port;
+//       }
+// }
+
+.about{
+  text-align: center;
+  letter-spacing: 2px;
+  
+  h1{
+    line-height: 300px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: whitesmoke;
+  }
+
+  h2{
+     margin-top: -120px;
+     color:rgb(199, 199, 24);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

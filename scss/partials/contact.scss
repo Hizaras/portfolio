@@ -1,0 +1,50 @@
+.contact{
+    padding: 5em 0;
+    margin-left: 70px;
+    margin-right: 10px;
+    justify-content: center;
+    color: black;
+    h1{
+        text-align: center;
+         color: rgb(199, 199, 24);
+        font-weight: 500;
+    }
+
+    label{
+        display: block;
+        margin-top: 1em;
+        color: $dark-gray;
+        text-transform: uppercase;
+        
+
+    }
+    input, textarea{
+        
+        display: block;
+        padding: .75em;
+        width: 90%;
+        background: black;
+        color: whitesmoke;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        font-size: 1.2rem;
+         
+    }
+}
+
+.button{
+    display: block;
+    width: 20%;
+    padding: 15px;
+    text-transform: uppercase;
+    background: rgb(199, 199, 24);
+    border: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+// @media only screen and (max)
+
