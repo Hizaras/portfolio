@@ -84,7 +84,8 @@
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
-        color: black;
+        color: rgb(199, 199, 24);
+        font-family: 'Dancing Script', cursive;
     }
 
     img{
@@ -93,17 +94,18 @@
  }
 
  .portfolio-title{
-    color: whitesmoke;
-    font-size: 200%;
+  color: rgb(199, 199, 24);
+  font-size: 150%;
     text-align: center;
     line-height: 50px;
     background: rgba(0, 0, 0, 0.892);
+
+    font-family: 'Dancing Script', cursive;
     }
 
   .portfolio-link{
     color: rgb(199, 199, 24);
-    font-weight: $fw-b;
-    font-size: 1.5rem;
+    font-size: 0.80rem;
     line-height: 4px;
     text-decoration: none;
     align-self: flex-start;

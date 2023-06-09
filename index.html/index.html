@@ -5,8 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Konkhmer+Sleokchher&family=Merriweather:wght@300&family=PT+Sans:wght@700&family=Rakkas&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Sans:wght@600&family=Poppins:ital,wght@0,300;1,500&display=swap" rel="stylesheet"> 
+
+
 </head>
 <body>
 
@@ -20,9 +34,9 @@
             <img src="../asset/images/home-office-1867761_640.jpg" alt="laptop on a table">
         </div>
         <div class="intro-middle">
-            <h2>Making it happen</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam excepturi optio nesciunt delectus quidem eum maiores natus aliquid nostrum. Est doloremque distinctio nihil cupiditate ipsum. Consectetur praesentium minima aut?</p>
-        </div>
+            <h3> Blessing Kelechi Ihueze</h3>
+            <P>I am a Frontend developer, web designer and ui/ux designer </P>
+         </div>
         <div class="intro-right">
             <img src="../asset/images/computer-2982270_640.jpg" alt="">
         </div>
@@ -32,12 +46,10 @@
             <h1 class="about-title">Kelechi Portfolio</h1>
             <h2 class="about-subtitle">Designer & Developer</h2>
             <div class="about-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit unde consequuntur, </p>
-                <p> veritatis obcaecati, exercitationem alias placeat minima et ipsum,</p>
-                <p> reiciendis molestias repellat provident! Quas ratione aut commodi odit sunt.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis optio et rep </p>
-                <p> omnis possimus quia accusamus suscipit animi voluptates modi reiciendis quaerat,</p> 
-                <p>soluta nisi temporibus nam dicta vitae ab! Quisquam!</p>
+                <p>As a software engineer, I possess an extensive understanding of all phases of software development.</p>
+                <p>as well 1years of experience working with software development teams at different levels both as an apprentice, student, and self-learner.</p>
+                <p>I have skills in product designing, User Experience and Interaction Designer.</p>
+                <p>utilizing UML tools, SOLID principles, Test Driven Development Approach, and design patterns.</p>
     </div>
 
             <img class="about-image" src="../asset/images/image 1.png" alt="female picture">
@@ -54,8 +66,8 @@
                 <img src="../asset/svgs/landingPage.png" alt="">
                 <figcaption>
                     <h2 class="portfolio-title">Rutos</h2>
-                    <p class="portfolio-desc">A short description could go right there</p>
-                    <a href="#" class="portfolio-link">More info</a>
+                    <p class="portfolio-desc">This is a fashion website that was design using figma where a user can purchase fashion items and pay using their card</p>
+                    <a href="https://dribbble.com/shots/21637906-Rutos-Landing-Page" class="portfolio-link">More info</a>
                 </figcaption>
             </figure>
 
@@ -65,7 +77,7 @@
                 <img src="../asset/images/myflyer.png" alt="">
                 <figcaption>
                     <h2 class="portfolio-title">Positive Midset Flyer</h2>
-                    <p class="portfolio-desc">A short description could go right there</p>
+                    <p class="portfolio-desc">This is a flyer i designed for a program in semicolon Africa positive mindset day</p>
                     <a href="#" class="portfolio-link">More info</a>
                 </figcaption>
             </figure>
@@ -78,7 +90,7 @@
                 <figcaption>
                     <h2 class="portfolio-title">JustNature</h2>
                     <p class="portfolio-desc">A short description could go right there</p>
-                    <a href="#" class="portfolio-link">More info</a>
+                    <a href="https://www.figma.com/file/MbgqyROB31WUarsfHVckoj/Cosmetics?type=design&node-id=7-65&t=eh6JUiaj5jUyXAAR-11" class="portfolio-link">More info</a>
                 </figcaption>
             </figure>
 
@@ -110,43 +122,46 @@
     <section class="contact">
         <h1>Contact Me</h1>
 
-        <form action="">
+        <form action="https://formsubmit.co/ihuezeblessing7@gmail.com" method="POST">
 
             <label class="name" class="name">Name:
-                <input type="text" id="name">
+                <input type="text" id="name" name="name" required>
             </label>
            
             <label class="Email" class="email">Email:
-                <input type="email" id="name">
+                <input type="email" name="email" id="name" required>
             </label>
 
             <label message="message">Message:
-                <textarea name="" id="message"></textarea>
+                <textarea type="text" name="text" id="message" required></textarea>
            </label>
+
+
+           <button type="submit" class="button">Send</button>
+
 
            <!-- <input class="button" type="submit" value="SEND"> -->
         </form>  
         
-        <button class="button">Send</button>
         
     </section>
 
     <footer style="background: black;">
         <p class="follow-me-txt">Follow me on social media</p>
-        <div class="row" class="social-icons">
+        <div class="row" class= "social-icons">
 
             <div class="col">
-               <a href=""><img  id="twitter" src="../asset/twitter-logo-round-button-icon-with-empty-background-3d_272306-345.avif" alt="tweeter icon" class="social-icon"></a>
+               <a href="https://twitter.com/hi_za_ra"><img  id="twitter" src="../asset/twitter-logo-round-button-icon-with-empty-background-3d_272306-345.avif" alt="tweeter icon" class="social-icon"></a>
             </div>
 
             <div class="col">
-               <a href=""><img src="../asset/button-3d-icon-github_612544-122.avif" alt="github icon" class="social-icon"></a>
+               <a href="https://github.com/Hizaras"><img src="../asset/button-3d-icon-github_612544-122.avif" alt="github icon" class="social-icon"></a>
 
             </div>
 
             <div class="col">
                 
-             <a href=""><img id="linkedln" src="../asset/linkedin-logo-round-button-icon-with-empty-background-3d_272306-334.avif" alt="linkdln icon" class="social-icon"></a>  
+             <a href="https://www.linkedin.com/in/blessing-ihueze-79926a22b/"><img id="linkedln" src="../asset/linkedin-logo-round-button-icon-with-empty-background-3d_272306-334.avif" alt="linkdln icon" class="social-icon"></a>  
             </div>
         
         </div>
@@ -159,3 +174,4 @@
      
 </body>
 </html> 
+
